@@ -8,7 +8,7 @@ const serif = Cormorant_Garamond({
 });
 const sans = Manrope({ subsets: ["latin"], variable: "--sans" });
 export const metadata: Metadata = {
-  title: "Christian Charles Olsen | Independent Financial Adviser",
+  title: "Christian Charles Olsen | Financial Advisor and Broker",
   description:
     "Clear, disciplined financial guidance for individuals, families and business owners seeking to build, manage and preserve wealth with confidence across every stage of life.",
   icons: { icon: "/favicon.svg" },

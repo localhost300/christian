@@ -64,7 +64,7 @@ export default function Home() {
         <section className="hero">
           <div className="wrap hero-grid">
             <div className="hero-copy">
-              <span className="eyebrow">Independent financial adviser</span>
+              <span className="eyebrow">Financial advisor and a broker</span>
               <h1>Christian Charles Olsen</h1>
               <p>
                 A considered financial strategy for building opportunity,
@@ -96,7 +96,7 @@ export default function Home() {
           <div>
             <ShieldCheck />
             <span>
-              <b>Independent Advice</b>
+              <b>Financial Advice</b>
               <small>Always centred on your objectives</small>
             </span>
           </div>
