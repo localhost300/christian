@@ -10,11 +10,12 @@ const sans = Manrope({ subsets: ["latin"], variable: "--sans" });
 export const metadata: Metadata = {
   title: "Christian Charles Olsen | Independent Financial Adviser",
   description:
-    "Thoughtful financial advice shaped around your life, priorities and long-term ambitions.",
+    "Clear, disciplined financial guidance for individuals, families and business owners seeking to build, manage and preserve wealth with confidence across every stage of life.",
   icons: { icon: "/favicon.svg" },
   openGraph: {
     title: "Christian Charles Olsen",
-    description: "Invest with greater clarity.",
+    description:
+      "Clear, disciplined financial guidance designed to help individuals, families and business owners build, manage and preserve wealth with confidence.",
     type: "website",
   },
   twitter: { card: "summary_large_image" },
