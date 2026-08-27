@@ -13,12 +13,15 @@ export const metadata: Metadata = {
     "Clear, disciplined financial guidance for individuals, families and business owners seeking to build, manage and preserve wealth with confidence across every stage of life.",
   icons: { icon: "/favicon.svg" },
   openGraph: {
-    title: "Christian Charles Olsen",
+    title: "Christian Charles Olsen | Financial Advisor and Broker",
     description:
       "Clear, disciplined financial guidance designed to help individuals, families and business owners build, manage and preserve wealth with confidence.",
     type: "website",
   },
-  twitter: { card: "summary_large_image" },
+  twitter: {
+    card: "summary_large_image",
+    title: "Christian Charles Olsen | Financial Advisor and Broker",
+  },
 };
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (

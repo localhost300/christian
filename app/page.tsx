@@ -64,7 +64,7 @@ export default function Home() {
         <section className="hero">
           <div className="wrap hero-grid">
             <div className="hero-copy">
-              <span className="eyebrow">Financial advisor and a broker</span>
+              <span className="eyebrow">Financial Advisor and Broker</span>
               <h1>Christian Charles Olsen</h1>
               <p>
                 A considered financial strategy for building opportunity,
