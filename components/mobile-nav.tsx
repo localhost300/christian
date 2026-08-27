@@ -1,0 +1,2 @@
+'use client';import {useState} from 'react';import {Menu,X} from 'lucide-react';
+export function MobileNav(){const [open,setOpen]=useState(false);return <div className="mobile-nav"><button onClick={()=>setOpen(!open)} aria-expanded={open} aria-label="Toggle navigation">{open?<X/>:<Menu/>}</button>{open&&<nav>{['About','Services','Testimonials','Contact'].map(x=><a key={x} onClick={()=>setOpen(false)} href={'#'+x.toLowerCase()}>{x}</a>)}<a className="button" href="#contact">Book a Consultation</a></nav>}</div>}
