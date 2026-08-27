@@ -220,9 +220,9 @@ export default function Home() {
                 introductory conversation.
               </p>
               <div className="contact-lines">
-                <a href="mailto:info@christiancharlesolsen.com">
+                <a href="mailto:info@christiancharlesolsen.me">
                   <Mail />
-                  info@christiancharlesolsen.com
+                  info@christiancharlesolsen.me
                 </a>
               </div>
             </div>
