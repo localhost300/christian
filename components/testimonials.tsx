@@ -41,8 +41,8 @@ export function Testimonials() {
     setI((i + amount + quotes.length) % quotes.length);
   return (
     <section id="testimonials" className="testimonials section">
-      <div className="wrap">
-        <div className="section-heading row">
+      <div className="wrap testimonial-layout">
+        <div className="section-heading testimonial-heading">
           <div>
             <span className="eyebrow">Client perspectives</span>
             <h2>
@@ -50,6 +50,10 @@ export function Testimonials() {
               <br />
               <em>Relationships built to last.</em>
             </h2>
+          </div>
+          <div className="testimonial-count">
+            <strong>{String(i + 1).padStart(2, "0")}</strong>
+            <span>/ {String(quotes.length).padStart(2, "0")}</span>
           </div>
           <div className="slider-controls">
             <button onClick={() => move(-1)} aria-label="Previous testimonial">
@@ -60,15 +64,16 @@ export function Testimonials() {
             </button>
           </div>
         </div>
-        <div className="quote-card">
+        <div className="quote-stage">
+          <div className="quote-card">
           <Quote />
           <p>“{quotes[i].text}”</p>
           <div>
             <b>{quotes[i].name}</b>
             <span>{quotes[i].role} ·</span>
           </div>
-        </div>
-        <div className="dots">
+          </div>
+          <div className="dots">
           {quotes.map((_, n) => (
             <button
               key={n}
@@ -77,6 +82,7 @@ export function Testimonials() {
               aria-label={`Show testimonial ${n + 1}`}
             />
           ))}
+          </div>
         </div>
       </div>
     </section>
