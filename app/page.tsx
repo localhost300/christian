@@ -73,7 +73,7 @@ export default function Home() {
                   Book a Consultation <ArrowRight size={16} />
                 </a>
                 <a className="text-link" href="#services">
-                  Explore our approach <ArrowRight size={15} />
+                  Get Full Report <ArrowRight size={15} />
                 </a>
               </div>
             </div>
