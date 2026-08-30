@@ -19,7 +19,7 @@ const quotes = [
   },
   {
     text: "Christian helped us think about the company and our personal wealth as one connected financial picture. That clarity has been enormously valuable.",
-    name: "Daniel Okafor",
+    name: "Chris Eklund",
     role: "Managing Director",
   },
   {
