@@ -72,7 +72,12 @@ export default function Home() {
                 <a className="button" href="#contact">
                   Book a Consultation <ArrowRight size={16} />
                 </a>
-                <a className="text-link" href="#services">
+                <a
+                  className="text-link"
+                  href="https://files.brokercheck.finra.org/individual/individual_5205101.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   Get Full Report <ArrowRight size={15} />
                 </a>
               </div>
